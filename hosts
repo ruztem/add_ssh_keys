@@ -1,0 +1,2 @@
+[host]
+ip-address ansible_user=ruztem ansible_ssh_pass={password} ansible_ssh_common_args='-o StrictHostKeyChecking=no' ansible_sudo_pass={password}
