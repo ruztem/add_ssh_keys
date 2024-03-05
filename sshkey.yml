@@ -1,6 +1,6 @@
 ---
 - name: Add SSH key to remote server
-  hosts: all
+  hosts: host
   become: yes
   become_method: sudo
   tasks:
